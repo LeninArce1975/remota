@@ -21,6 +21,7 @@ public class V1 extends JFrame {
 	private JButton btnNewButton;
 	private JScrollPane scrollPane;
 	private JTextArea txtS;
+	private JLabel lblNewLabel_1;
 
 	/**
 	 * Launch the application.
@@ -73,6 +74,11 @@ public class V1 extends JFrame {
 				txtS = new JTextArea();
 				scrollPane.setViewportView(txtS);
 			}
+		}
+		{
+			lblNewLabel_1 = new JLabel("Apellido");
+			lblNewLabel_1.setBounds(24, 63, 45, 13);
+			contentPane.add(lblNewLabel_1);
 		}
 	}
 }
