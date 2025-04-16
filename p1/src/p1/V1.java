@@ -71,7 +71,6 @@ public class V1 extends JFrame {
 			contentPane.add(scrollPane);
 			{
 				txtS = new JTextArea();
-				txtS.setText("Verificando");
 				scrollPane.setViewportView(txtS);
 			}
 		}
